@@ -11,7 +11,7 @@ LABEL maintainer="lggomez"
 
 # environment settings
 ARG RADARR_BRANCH="master"
-ENV XDG_CONFIG_HOME="/config/xdg"
+ENV XDG_CONFIG_HOME="/config/xdg" 
 
 RUN \
   echo "**** install packages ****" && \
